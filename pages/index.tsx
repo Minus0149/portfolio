@@ -8,7 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Minus - portfolio</title>
       </Head>
-      <div>Main content</div>
+      <div></div>
     </div>
   );
 };
