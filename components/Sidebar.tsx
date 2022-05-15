@@ -15,27 +15,34 @@ type Props = {};
 
 const Sidebar = (props: Props) => {
   return (
-    <div>
-      <Image
-        src="https://media-exp1.licdn.com/dms/image/C5603AQGu01IqjCOgew/profile-displayphoto-shrink_200_200/0/1646711758573?e=1657756800&v=beta&t=lj6yrT6MyscJFxuFE_nyPQNARzdQZ9_lWVqLXhmg5sg"
-        alt="User avatar"
-        className="mx-auto rounded-full"
-        height="128px"
-        width="128px"
-      />
-      <h3 className="my-4 text-3xl font-medium tracking-wide font-Kaushan">
-        Mir <span className="text-teal-500"> iqrab </span> Farman
-      </h3>
-      <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2">
-        <GiTie className="w-6 h-6 " /> Web developer
-      </p>
-      <a
-        href=""
-        download="Minus-resume"
-        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2"
-      >
-        <AiOutlineDownload className="w-6 h-6 " /> Download resume
-      </a>
+    <div className="lg:space-y-8">
+      <div className="lg:space-y-2">
+        <Image
+          src="https://media-exp1.licdn.com/dms/image/C5603AQGu01IqjCOgew/profile-displayphoto-shrink_200_200/0/1646711758573?e=1657756800&v=beta&t=lj6yrT6MyscJFxuFE_nyPQNARzdQZ9_lWVqLXhmg5sg"
+          alt="User avatar"
+          className="mx-auto border rounded-full "
+          height="128px"
+          width="128px"
+          layout="intrinsic"
+          quality="100"
+        />
+        <h3 className="my-4 text-3xl font-medium tracking-wide font-Kaushan">
+          Mir <span className="text-teal-500"> iqrab </span> Farman
+        </h3>
+      </div>
+
+      <div className="space-y-5">
+        <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2">
+          <GiTie className="w-6 h-6 " /> Web developer
+        </p>
+        <a
+          href=""
+          download="Minus-resume"
+          className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2"
+        >
+          <AiOutlineDownload className="w-6 h-6 " /> Download resume
+        </a>
+      </div>
 
       <div className="flex justify-around w-9/12 m-auto my-6 text-blue-500 md:w-full">
         <a href="https://github.com/Minus0149" target="_blank" rel="noreferrer">
