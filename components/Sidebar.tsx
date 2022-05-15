@@ -9,16 +9,19 @@ import {
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import React from "react";
+import Image from "next/image";
 
 type Props = {};
 
 const Sidebar = (props: Props) => {
   return (
     <div>
-      <img
+      <Image
         src="https://media-exp1.licdn.com/dms/image/C5603AQGu01IqjCOgew/profile-displayphoto-shrink_200_200/0/1646711758573?e=1657756800&v=beta&t=lj6yrT6MyscJFxuFE_nyPQNARzdQZ9_lWVqLXhmg5sg"
         alt="User avatar"
-        className="w-32 h-32 mx-auto rounded-full"
+        className="mx-auto rounded-full"
+        height="128px"
+        width="128px"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wide font-Kaushan">
         Mir <span className="text-teal-500"> iqrab </span> Farman
