@@ -11,9 +11,9 @@ import { GiTie } from "react-icons/gi";
 import React from "react";
 import Image from "next/image";
 
-type Props = {};
 
-const Sidebar = (props: Props) => {
+
+const Sidebar = () => {
   return (
     <div className="lg:space-y-8">
       <div className="lg:space-y-2">

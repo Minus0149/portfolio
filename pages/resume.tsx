@@ -1,9 +1,15 @@
+import { NextPage } from "next";
+import Head from "next/head";
 import React from "react";
 
-type Props = {};
-
-const Resume = (props: Props) => {
-  return <div className="p-4">resume</div>;
+const Resume: NextPage = () => {
+  return( 
+  <div className="p-4">
+    
+    <Head>
+      <title>Minus - Resume</title>
+    </Head>
+  </div>);
 };
 
 export default Resume;
