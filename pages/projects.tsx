@@ -1,9 +1,9 @@
+import { NextPage } from "next";
 import Head from "next/head";
 import React from "react";
 
-type Props = {};
 
-const Projects = (props: Props) => {
+const Projects: NextPage = () => {
   return (
   <div className="p-4">
     

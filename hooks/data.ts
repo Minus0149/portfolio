@@ -5,23 +5,27 @@ import {AiOutlineAntDesign, AiOutlineApi} from "react-icons/ai";
 
 export const services:IService[] = [
   {  
-    icon: RiComputerLine,
-    title: "Frontend Devolopment",
-    about: "I can build a beautiful and scalable SPA and MPA using <b>HTML</b>, <b>CSS</b> & <b>Next.js</b> ",
+    Icon: RiComputerLine,
+    Title: "Frontend Devolopment",
+    About: "I can build a beautiful and scalable SPA and MPA using <b style='color:#40689c !important'>HTML</b>, <b style='color:#40689c !important'>CSS</b> & <b style='color:#40689c !important'>Next.js</b> ",
+    Id:1
   },
   {  
-    icon: FaServer,
-    title: "Backend Development",
-    about: "i can handle database, server, api using <b>Express</b> & other popular frameworks",
+    Icon: FaServer,
+    Title: "Backend Development",
+    About: "I can handle database, server, api using <b style='color:#40689c !important'>Express</b> & other popular frameworks",
+    Id:2
   },
   {  
-    icon: AiOutlineApi,
-    title: "API Development",
-    about: "I can develop robust REST APIs using <b>django-rest-api</b> & <b>Node API</b> ",
+    Icon: AiOutlineApi,
+    Title: "API Development",
+    About: "I can develop robust REST APIs using <b style='color:#40689c !important'>Django-rest-api</b> & <b style='color:#40689c !important'>Node API</b> ",
+    Id:3
   },
   {  
-    icon: AiOutlineAntDesign,
-    title: "UI/UX Designer",
-    about: "stunning user interface designer using <b>Figma</b> & <b>Framer</b>",
+    Icon: AiOutlineAntDesign,
+    Title: "UI/UX Designer",
+    About: "stunning user interface designer using <b style='color:#40689c !important'>Figma</b> & <b style='color:#40689c !important'>Framer</b>",
+    Id:4
   },
 ]

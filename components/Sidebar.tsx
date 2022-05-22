@@ -32,13 +32,13 @@ const Sidebar = () => {
       </div>
 
       <div className="space-y-5">
-        <p className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2">
+        <p className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 gap-x-2">
           <GiTie className="w-6 h-6 " /> Web developer
         </p>
         <a
           href=""
           download="Minus-resume"
-          className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full gap-x-2"
+          className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 gap-x-2"
         >
           <AiOutlineDownload className="w-6 h-6 " /> Download resume
         </a>
@@ -71,19 +71,19 @@ const Sidebar = () => {
         </a>
       </div>
 
-      <div className="py-4 my-5 -m-4 bg-gray-200 ">
+      <div className="py-4 my-5 -m-4 bg-slate-200 ">
         <div className="flex items-center justify-center my-2 gap-x-2">
           <GoLocation className="w-4 h-4" />
           <span>Banglore,India</span>
         </div>
         <div className="flex items-center justify-center my-2 gap-x-2">
           <AiFillMail className="w-4 h-4" />
-          <p>Minus.4399@gmail.com</p>
+          <p>Minus4399@gmail.com</p>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center gap-2 ">
         <button
-          onClick={() => window.open("mailto:minus.4399@gmail.com")}
+          onClick={() => window.open("mailto:minus4399@gmail.com")}
           className="w-8/12 px-5 py-2 my-1 text-white rounded-full bg-gradient-to-r from-blue-700 to-teal-400"
         >
           Email me

@@ -1,7 +1,8 @@
 import { IconType } from "react-icons";
 
 export interface IService {
-  icon: IconType;
-  title: string;
-  about: string;
+  Icon: IconType;
+  Title: string;
+  About: string;
+  Id:number;
 }
