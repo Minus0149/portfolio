@@ -11,14 +11,14 @@ const Resume: NextPage = () => {
         <title>Minus - Resume</title>
       </Head>
 
-      <div className="">
+      <div>
         <h5 className="text-xl font-semibold tracking-wider">Education :</h5>
         <div>{/* Fill this out later */}</div>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         <div>
           <h5 className="mb-3 text-2xl font-bold">Languages & Frameworks :</h5>
-          <div className="">
+          <div className="mt-6">
             {languages.map((language) => (
               <Bar data={language} key={language.Id} />
             ))}
@@ -26,7 +26,7 @@ const Resume: NextPage = () => {
         </div>
         <div>
           <h5 className="mb-3 text-2xl font-bold">Tools & Softwares :</h5>
-          <div className="">
+          <div className="mt-6 ">
             {tools.map((tool) => (
               <Bar data={tool} key={tool.Id} />
             ))}

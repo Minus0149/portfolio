@@ -23,9 +23,9 @@ const Navbar = () => {
   useEffect(() => {
     if (pathname === "/") {
       setActiveItem("About");
-    } else if (pathname === "/resume") {
+    } else {
       setActiveItem("Resume");
-    } else setActiveItem("Projects");
+    }
   }, [pathname]);
 
   return (
@@ -36,7 +36,6 @@ const Navbar = () => {
       <div className="flex space-x-5 text-lg ">
         <NavItem activeItem={activeItem} name="About" route="/" />
         <NavItem activeItem={activeItem} name="Resume" route="/resume" />
-        <NavItem activeItem={activeItem} name="Projects" route="/projects" />
       </div>
     </div>
   );
