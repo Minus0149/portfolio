@@ -22,7 +22,10 @@ class MyDocument extends Document {
             name="description"
             content="Portfolio designed by minus for minus "
           />
-          <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio" />
+          <meta
+            name="keywords"
+            content="HTML, CSS, JavaScript, Portfolio, Minus"
+          />
           <meta name="author" content="Minus" />
         </Head>
         <body className="h-full bg-gradient-to-r from-blue-700 to-teal-400 text-zinc-800 dark:text-slate-200 ">
