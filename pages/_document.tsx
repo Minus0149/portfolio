@@ -16,6 +16,14 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
             rel="stylesheet"
           />
+
+          <meta charSet="UTF-8" />
+          <meta
+            name="description"
+            content="Portfolio designed by minus for minus "
+          />
+          <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio" />
+          <meta name="author" content="Minus" />
         </Head>
         <body className="h-full bg-gradient-to-r from-blue-700 to-teal-400 text-zinc-800 dark:text-slate-200 ">
           <Main />
