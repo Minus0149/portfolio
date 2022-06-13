@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         nad troubleshooting webpages and websites. Developing website using
         HTML, CSS, JavaScript, React and Next.js
       </h5>
-      <div className="flex-grow p-4 pt-2 mt-5 -mx-6 -mb-4 rounded-lg bg-slate-400 ">
+      <div className="flex-grow p-4 pt-2 mt-5 -mx-6 -mb-4 rounded-lg bg-slate-400 dark:bg-slate-600 ">
         <h6 className="my-3 text-xl font-bold tracking-wider">
           What I Offer :
         </h6>
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           {services.map((services) => (
             <div
               key={services.Id}
-              className="p-5 rounded-lg lg:col-span-2 bg-slate-200"
+              className="p-5 rounded-lg lg:col-span-2 bg-slate-200 dark:bg-zinc-900"
             >
               <ServiceCard services={services} />
             </div>

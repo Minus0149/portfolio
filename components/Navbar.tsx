@@ -23,9 +23,7 @@ const Navbar = () => {
   useEffect(() => {
     if (pathname === "/") {
       setActiveItem("About");
-    } else {
-      setActiveItem("Resume");
-    }
+    } else setActiveItem("Resume");
   }, [pathname]);
 
   return (

@@ -10,8 +10,13 @@ import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import React from "react";
 import Image from "next/image";
+import { useTheme } from "next-themes";
 
 const Sidebar = () => {
+  const { theme, setTheme } = useTheme();
+  const changeTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   return (
     <div className="lg:space-y-8">
       <div className="lg:space-y-2">
@@ -30,13 +35,12 @@ const Sidebar = () => {
       </div>
 
       <div className="space-y-5">
-        <p className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 gap-x-2">
+        <p className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 dark:bg-zinc-700 gap-x-2">
           <GiTie className="w-6 h-6 " /> Web developer
         </p>
         <a
-          href=""
-          download="Minus-resume"
-          className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 gap-x-2"
+          download="Minus-resume.pdf"
+          className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 gap-x-2 dark:bg-zinc-700"
         >
           <AiOutlineDownload className="w-6 h-6 " /> Download resume
         </a>
@@ -69,7 +73,7 @@ const Sidebar = () => {
         </a>
       </div>
 
-      <div className="py-4 my-5 -m-4 bg-slate-200 ">
+      <div className="py-4 my-5 -m-4 bg-slate-200 dark:bg-zinc-700 ">
         <div className="flex items-center justify-center my-2 gap-x-2">
           <GoLocation className="w-4 h-4" />
           <span>Banglore,India</span>
@@ -86,8 +90,11 @@ const Sidebar = () => {
         >
           Email me
         </button>
-        <button className="w-8/12 px-5 py-2 my-1 text-white rounded-full bg-gradient-to-r from-blue-700 to-teal-400">
-          Toggle theme
+        <button
+          onClick={changeTheme}
+          className="w-8/12 px-5 py-2 my-1 text-white rounded-full bg-gradient-to-r from-blue-700 to-teal-400"
+        >
+          {theme?.toLocaleUpperCase()} UI
         </button>
       </div>
     </div>
