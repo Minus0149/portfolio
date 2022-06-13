@@ -11,6 +11,7 @@ class MyDocument extends Document {
             href="https://fonts.gstatic.com"
             crossOrigin={"true"}
           />
+          <link rel="icon" href="/asset/book.svg" />
           <link
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
             rel="stylesheet"

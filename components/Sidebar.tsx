@@ -39,7 +39,10 @@ const Sidebar = () => {
           <GiTie className="w-6 h-6 " /> Web developer
         </p>
         <a
+          href="/asset/resume.pdf"
           download="Minus-resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="flex items-center justify-center px-2 py-1 my-3 rounded-full bg-slate-200 gap-x-2 dark:bg-zinc-700"
         >
           <AiOutlineDownload className="w-6 h-6 " /> Download resume
@@ -76,7 +79,7 @@ const Sidebar = () => {
       <div className="py-4 my-5 -m-4 bg-slate-200 dark:bg-zinc-700 ">
         <div className="flex items-center justify-center my-2 gap-x-2">
           <GoLocation className="w-4 h-4" />
-          <span>Banglore,India</span>
+          <span>Bengaluru,India</span>
         </div>
         <div className="flex items-center justify-center my-2 gap-x-2">
           <AiFillMail className="w-4 h-4" />
