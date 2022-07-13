@@ -18,6 +18,7 @@ class MyDocument extends Document {
           />
 
           <meta charSet="UTF-8" />
+          <meta name="theme-color" content="#00FEEE" />
           <meta
             name="description"
             content="Portfolio designed by minus for minus "
